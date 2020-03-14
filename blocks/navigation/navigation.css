@@ -1,0 +1,23 @@
+@import url("./__list/__list.css");
+@import url("./__item/__item.css");
+
+.navigation {
+  width: 100%;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+.navigation__item {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #505F98;
+}
