@@ -1,8 +1,11 @@
 @import url("./fonts/roboto.css");
-@import url("./blocks/button/button.css"); /*font-size: 16px;  font-weight: 500; line-height: 26px;*/
-@import url("./blocks/button/_type/_empty/_empty.css");
+@import url("./blocks/button/button.css"); /*{font-size, font-weight, line-height}*/
+@import url("blocks/button/_color/_white/_white.css");
+@import url("blocks/button/_color/_dark-blue/_dark-blue.css");
 @import url("./blocks/text-logo/text-logo.css");
-@import url("./blocks/navigation/navigation.css"); /* color: #505F98; */
+@import url("./blocks/navigation/navigation.css");
+@import url("blocks/text-block/text-block.css");
+@import url("blocks/card/card.css");
 
 .page {
   display: flex;
@@ -18,7 +21,6 @@
   flex-direction: column;
   align-items: center;
   height: 1103px;
-  border: 1px solid green;
   width: 100%;
   background-image: url("./images/hero.svg");
   background-position: right bottom;
@@ -26,7 +28,8 @@
 }
 
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, calc(100% / 3));
   align-items: center;
   height: 60px;
   /*width: calc(100% - 330px);*/
@@ -36,20 +39,19 @@
 }
 
 .header__navigation {
+  margin: 0 auto 0 0;
   max-width: 245px;
-  flex: 0 0 auto;
 }
 
 .header__text-logo {
-  flex: 1 0 auto;
 }
 
 .header__button {
+  margin: 0 0 0 auto;
   height: 26px;
   width: 160px;
   font-size: 12px;
   line-height: 18px;
-  flex: 0 0 auto;
 }
 
 .main {
@@ -58,11 +60,11 @@
 
 .hero {
   width: 100%;
-  padding: 243px 0 379px 0;
+  padding: 243px 0 379px 163px;
+  box-sizing: border-box;
 }
 
 .hero__container {
-  margin: 0 0 0 163px;
   width: 539px;
 }
 
@@ -99,8 +101,63 @@
 .hero__button {
   height: 36px;
   width: 189px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .hero__button:not(:first-child) {
   margin: 0 0 0 30px;
+}
+
+.mobile-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 742px;
+  width: 100%;
+  padding: 116px 165px;
+  box-sizing: border-box;
+}
+
+.mobile-login__container {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+}
+
+.mobile-login__card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 49px 0 0 0;
+}
+
+.mobile-login__card:nth-child(2n) {
+  margin-left: 30px;
+}
+
+.mobile-login__card:nth-child(n-3) {
+  margin-top: 30px;
+}
+
+.mobile-login__image {
+  width: 540px;
+}
+
+.intro {
+  min-height: 558px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, calc(100% / 2));
+  padding: 120px 165px 130px 165px;
+  box-sizing: border-box;
+}
+
+.intro__image {
+  width: 480px;
+  margin: 0 auto;
+}
+
+.intro__text-block {
+  margin-left: auto;
+  width: 445px;
 }

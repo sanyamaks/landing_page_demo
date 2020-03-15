@@ -1,0 +1,13 @@
+.button_color_dark-blue {
+  background-color: #111b47;
+  border: none;
+  color: white;
+}
+
+.button_color_dark-blue:hover {
+  box-shadow: 0 0 5px #111b47;
+}
+
+.button_color_dark-blue:active {
+  box-shadow: 1px 1px 5px #111b47;
+}

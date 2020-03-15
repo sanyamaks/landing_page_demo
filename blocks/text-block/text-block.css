@@ -1,0 +1,7 @@
+@import url("./__title/__title.css");
+@import url("./__body/__body.css");
+@import url("./__paragraph/__paragraph.css");
+
+.text-block {
+  width: 100%;
+}

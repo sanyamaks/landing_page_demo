@@ -1,0 +1,11 @@
+.text-block__paragraph {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  color: #6f7cb2;
+}
+
+.text-block__paragraph:not(:first-child) {
+  margin: 10px 0 0 0;
+}
