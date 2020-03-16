@@ -1,0 +1,12 @@
+@import url("./__image/__image.css");
+@import url("./__text-block/__text-block.css");
+
+.intro {
+  min-height: 566px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, calc((100% - 30px) / 2)); /* grid-column-gap: 30px; */
+  grid-column-gap: 30px;
+  padding: 90px 165px 90px 165px;
+  box-sizing: border-box;
+}

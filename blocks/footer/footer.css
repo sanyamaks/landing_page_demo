@@ -1,0 +1,16 @@
+@import url("./__container-uix/__container-uix.css");
+@import url("./__copyright/__copyright.css");
+@import url("./__text-logo/__text-logo.css");
+@import url("./__button/__button.css");
+@import url("./__container-links/__container-links.css");
+@import url("./__navigation/__navigation.css");
+@import url("./__icons/__icons.css");
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 61px 165px 36px 165px;
+  box-sizing: border-box;
+  background-color: #E7ECFF;
+}

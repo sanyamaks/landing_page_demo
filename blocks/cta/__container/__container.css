@@ -1,0 +1,6 @@
+.cta__container {
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  margin: 0 0 0 auto;
+}

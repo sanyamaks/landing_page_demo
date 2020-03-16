@@ -1,0 +1,11 @@
+@import url("./__icon/__icon.css");
+@import url("./__icon-link/__icon-link.css");
+@import url("./__social-icon/__social-icon.css");
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  list-style-type: none;
+}

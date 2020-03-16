@@ -1,0 +1,9 @@
+.pricing__price {
+  margin: 36px 0 0 0;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 66px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #222F65;
+}

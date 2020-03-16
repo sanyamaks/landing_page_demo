@@ -1,0 +1,14 @@
+@import url("./__image/__image.css");
+@import url("./__container/__container.css");
+@import url("./__button/__button.css");
+
+.cta {
+  min-height: 534px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, calc((100% - 30px) / 2)); /* grid-column-gap: 30px; */
+  grid-column-gap: 30px;
+  margin: 20px 0 0 0;
+  padding: 116px 165px 105px 165px;
+  box-sizing: border-box;
+}

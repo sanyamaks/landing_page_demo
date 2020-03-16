@@ -1,0 +1,14 @@
+@import url("./__navigation/__navigation.css");
+@import url("./__text-logo/__text-logo.css");
+@import url("./__button/__button.css");
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, calc(100% / 3));
+  align-items: center;
+  height: 60px;
+  /*width: calc(100% - 330px);*/
+  width: 100%;
+  padding: 0 165px;
+  box-sizing: border-box;
+}

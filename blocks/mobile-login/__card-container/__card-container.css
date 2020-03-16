@@ -1,0 +1,5 @@
+.mobile-login__card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 49px 0 0 0;
+}

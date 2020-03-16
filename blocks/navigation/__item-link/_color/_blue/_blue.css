@@ -1,0 +1,8 @@
+.navigation__item-link_color_blue {
+  color: #505F98;
+}
+
+
+.navigation__item-link_color_blue:active {
+  color: #505F98;
+}
