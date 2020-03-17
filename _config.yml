@@ -1,5 +1,6 @@
 # Reading Files
 include:
   - .htaccess
-  - block/*/*/*.css
+  - block/*/__*/__*.css
+  - block/*/__*
   - fonts/*/*.woff2
