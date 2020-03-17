@@ -1,72 +1,72 @@
 @font-face {
   font-family: "Roboto";
-  src: url("Robotothin/Robotothin.woff2") format("woff2");
+  src: url("./Robotothin/Robotothin.woff2") format("woff2");
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("Robotothinitalic/Robotothinitalic.woff2") format("woff2");
+  src: url("./Robotothinitalic/Robotothinitalic.woff2") format("woff2");
   font-weight: 100;
   font-style: italic;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("Robotolight/Robotolight.woff2") format("woff2");
+  src: url("./Robotolight/Robotolight.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("Robotolightitalic/Robotolightitalic.woff2") format("woff2");
+  src: url("./Robotolightitalic/Robotolightitalic.woff2") format("woff2");
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("Roboto/Roboto.woff2") format("woff2");
+  src: url("./Roboto/Roboto.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("Robotoitalic/Robotoitalic.woff2") format("woff2");
+  src: url("./Robotoitalic/Robotoitalic.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("Robotomedium/Robotomedium.woff2") format("woff2");
+  src: url("./Robotomedium/Robotomedium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("Robotomediumitalic/Robotomediumitalic.woff2") format("woff2");
+  src: url("./Robotomediumitalic/Robotomediumitalic.woff2") format("woff2");
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("Robotobold/Robotobold.woff2") format("woff2");
+  src: url("./Robotobold/Robotobold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("Robotobolditalic/Robotobolditalic.woff2") format("woff2");
+  src: url("./Robotobolditalic/Robotobolditalic.woff2") format("woff2");
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("Robotoblack/Robotoblack.woff2") format("woff2");
+  src: url("./Robotoblack/Robotoblack.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("Robotoblackitalic/Robotoblackitalic.woff2") format("woff2");
+  src: url("./Robotoblackitalic/Robotoblackitalic.woff2") format("woff2");
   font-weight: 900;
   font-style: italic;
 }
