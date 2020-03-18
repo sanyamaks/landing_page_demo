@@ -1,6 +1,0 @@
-# Reading Files
-include:
-  - .htaccess
-  - block/*/__*/__*.css
-  - block/*/__*
-  - fonts/*/*.woff2
