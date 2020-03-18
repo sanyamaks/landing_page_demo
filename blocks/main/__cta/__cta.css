@@ -1,0 +1,21 @@
+.main__cta {
+  width: 77.08%;
+}
+
+@media screen and (max-width: 1280px) {
+  .main__cta {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main__cta {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__cta {
+    width: 80%;
+  }
+}

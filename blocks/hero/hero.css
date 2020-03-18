@@ -1,0 +1,12 @@
+@import url("./__container/__container.css");
+@import url("./__title/__title.css");
+@import url("./__paragraphs/__paragraphs.css");
+@import url("./__paragraph/__paragraph.css");
+@import url("./__button-container/__button-container.css");
+@import url("./__button/__button.css");
+
+.hero {
+  width: 100%;
+  padding: 243px 0 379px 163px;
+  box-sizing: border-box;
+}

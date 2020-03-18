@@ -1,3 +1,23 @@
 .mobile-login__image {
-  width: 48.6%;
+  width: 49.09%;
+}
+
+@media screen and (max-width: 1280px) {
+  .mobile-login__image {
+    order: 1;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mobile-login__image {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mobile-login__image {
+    width: 100%;
+    order: 1;
+  }
 }

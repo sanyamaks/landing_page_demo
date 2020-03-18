@@ -1,3 +1,9 @@
 .text-block__body {
   margin: 16px 0 0 0;
 }
+
+@media screen and (max-width: 768px) {
+  .text-block__body {
+    margin: 12px 0 0 0;
+  }
+}

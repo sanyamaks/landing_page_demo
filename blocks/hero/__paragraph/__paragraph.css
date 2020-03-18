@@ -1,0 +1,11 @@
+.hero__paragraph {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #505f98;
+}
+
+.hero__paragraph:not(:first-child) {
+  margin: 14px 0 0 0;
+}

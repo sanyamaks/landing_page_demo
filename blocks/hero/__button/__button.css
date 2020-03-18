@@ -1,0 +1,10 @@
+.hero__button {
+  height: 36px;
+  width: 189px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hero__button:not(:first-child) {
+  margin: 0 0 0 30px;
+}

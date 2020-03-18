@@ -1,0 +1,15 @@
+.intro__image_size_b {
+  width: 88%;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__image_size_b {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro__image_size_b {
+    width: 88%;
+  }
+}

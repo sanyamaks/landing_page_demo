@@ -1,0 +1,21 @@
+.main__intro {
+  width: 77.08%;
+}
+
+@media screen and (max-width: 1280px) {
+  .main__intro {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main__intro {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__intro {
+    width: 80%;
+  }
+}

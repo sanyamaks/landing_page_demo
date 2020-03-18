@@ -1,12 +1,35 @@
 @import url("./__image/__image.css");
+@import url("./__image/_size/_a/_a.css");
+@import url("./__image/_size/_b/_b.css");
 @import url("./__text-block/__text-block.css");
 
 .intro {
   min-height: 566px;
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(2, calc((100% - 30px) / 2)); /* grid-column-gap: 30px; */
-  grid-column-gap: 30px;
-  padding: 90px 165px 90px 165px;
+  grid-template-columns: repeat(2, calc((100% - 2.70%) / 2)); /* grid-column-gap: 30px; */
+  grid-column-gap: 2.70%;
+  padding: 6.25% 0 6.25% 0;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro {
+    min-height: auto;
+    grid-template-columns: repeat(2, 450px); /* grid-column-gap: 30px; */
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    grid-template-columns: 1fr;
+    grid-row-gap: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 10% 0 10% 0;
+  }
 }

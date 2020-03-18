@@ -6,3 +6,10 @@
   text-align: center;
   color: #222F65;
 }
+
+@media screen and (max-width: 768px) {
+  .pricing__title {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}

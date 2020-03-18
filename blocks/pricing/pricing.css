@@ -8,9 +8,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   background-image: url("../../images/pricing__background.svg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  padding: 208px 0 264px 0;
+  padding: 14.44% 0 18.33% 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .pricing {
+    padding: 12% 0 16% 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pricing {
+    padding: 10% 0 10% 0;
+  }
 }

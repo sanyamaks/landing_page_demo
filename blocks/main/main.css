@@ -1,0 +1,10 @@
+@import url("./__mobile-login/__mobile-login.css");
+@import url("./__intro/__intro.css");
+@import url("./__cta/__cta.css");
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}

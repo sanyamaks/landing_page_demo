@@ -1,0 +1,5 @@
+@media screen and (max-width: 1280px) {
+  .mobile-login__text-block {
+    text-align: center;
+  }
+}

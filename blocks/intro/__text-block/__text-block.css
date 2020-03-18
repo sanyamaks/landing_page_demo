@@ -1,4 +1,17 @@
 .intro__text-block {
   margin: 0 0 0 auto;
-  width: 445px;
+  width: 82.41%;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro__text-block {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text-block {
+    text-align: center;
+    width: 100%;
+  }
 }

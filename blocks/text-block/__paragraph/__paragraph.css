@@ -9,3 +9,14 @@
 .text-block__paragraph:not(:first-child) {
   margin: 10px 0 0 0;
 }
+
+@media screen and (max-width: 768px) {
+  .text-block__paragraph {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .text-block__paragraph:not(:first-child) {
+    margin: 6px 0 0 0;
+  }
+}

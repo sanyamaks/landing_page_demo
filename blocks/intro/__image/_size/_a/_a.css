@@ -1,16 +1,15 @@
-.cta__image {
-  width: 82%;
-  margin: 0 auto;
+.intro__image_size_a {
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
-  .cta__image {
+  .intro__image_size_a {
     width: 85%;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .cta__image {
+  .intro__image_size_a {
     width: 100%;
   }
 }

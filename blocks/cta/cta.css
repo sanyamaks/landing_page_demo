@@ -6,9 +6,30 @@
   min-height: 534px;
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(2, calc((100% - 30px) / 2)); /* grid-column-gap: 30px; */
-  grid-column-gap: 30px;
+  grid-template-columns: repeat(2, calc((100% - 2.70%) / 2)); /* grid-column-gap: 30px; */
+  grid-column-gap: 2.70%;
   margin: 20px 0 0 0;
-  padding: 116px 165px 105px 165px;
+  padding: 8.15% 0 7.29% 0;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1280px) {
+  .cta {
+    min-height: auto;
+    grid-template-columns: repeat(2, 450px); /* grid-column-gap: 30px; */
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cta {
+    grid-template-columns: 1fr;
+    grid-row-gap: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cta {
+    padding: 10% 0 10% 0;
+  }
 }

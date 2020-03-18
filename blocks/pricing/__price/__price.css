@@ -1,9 +1,16 @@
 .pricing__price {
-  margin: 36px 0 0 0;
+  margin: 1.8% 0 0 0;
   font-size: 50px;
   font-weight: 500;
   line-height: 66px;
   letter-spacing: 1px;
   text-align: center;
   color: #222F65;
+}
+
+@media screen and (max-width: 768px) {
+  .pricing__price {
+    font-size: 36px;
+    line-height: 48px;
+  }
 }
