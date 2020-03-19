@@ -5,3 +5,10 @@
   width: 100%;
   margin: 20px 0 0 0;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__container-links {
+    display: flex;
+    flex-direction: column;
+  }
+}

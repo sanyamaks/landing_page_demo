@@ -4,6 +4,16 @@
   align-items: center;
   height: 20px;
   width: 100%;
-  padding: 0 0 58px 0;
+  padding: 0 0 4.03% 0;
   border-bottom: 1px solid #CDD1D4;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container-uix {
+    /*justify-content: center;*/
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, auto);
+    height: auto;
+    width: 100%;
+  }
 }

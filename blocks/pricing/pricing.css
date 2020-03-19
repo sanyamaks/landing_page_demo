@@ -24,6 +24,13 @@
 
 @media screen and (max-width: 1024px) {
   .pricing {
-    padding: 10% 0 10% 0;
+    padding: 8% 0 8% 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pricing {
+    background-image: url("../../images/pricing__background(768w).svg");
+    padding: 18% 0 18% 0;
   }
 }

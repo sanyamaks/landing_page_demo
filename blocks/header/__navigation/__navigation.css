@@ -2,3 +2,9 @@
   margin: 0 auto 0 0;
   max-width: 245px;
 }
+
+@media screen and (max-width: 480px) {
+  .header__navigation {
+    margin: 10px auto 0 auto;
+  }
+}

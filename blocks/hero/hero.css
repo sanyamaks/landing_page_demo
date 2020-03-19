@@ -7,6 +7,32 @@
 
 .hero {
   width: 100%;
-  padding: 243px 0 379px 163px;
+  padding: 16.88% 0 26.32% 0;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1280px) {
+  .hero {
+    padding: 10% 0 16% 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding: 5% 0 8% 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 80%;
+    padding: 15% 0 5% 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero {
+    width: 90%;
+    padding: 15% 0 5% 0;
+  }
 }

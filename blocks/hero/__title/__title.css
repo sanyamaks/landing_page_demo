@@ -6,3 +6,10 @@
   letter-spacing: 1px;
   color: #091133;
 }
+
+@media screen and (max-width: 768px) {
+  .hero__title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}

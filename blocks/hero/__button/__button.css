@@ -6,5 +6,13 @@
 }
 
 .hero__button:not(:first-child) {
-  margin: 0 0 0 30px;
+  margin: 0 0 0 5.9%;
+}
+
+@media screen and (max-width: 768px) {
+  .hero__button {
+    height: 24px;
+    width: 140px;
+    font-size: 12px;
+  }
 }

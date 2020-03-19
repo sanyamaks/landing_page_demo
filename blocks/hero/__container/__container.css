@@ -1,3 +1,22 @@
 .hero__container {
-  width: 539px;
+  width: 37.43%;
+  margin: 0 0 0 11.32%;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero__container {
+    width: 50%;
+    margin: 0 0 0 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero__container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
 }
