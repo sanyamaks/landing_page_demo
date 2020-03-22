@@ -5,15 +5,15 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-image: url("../../images/hero.svg");
-  background-position: right bottom;
+  background-image: url("../../images/hero.png");
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 @media screen and (max-width: 1024px) {
   .hero-background {
-    background-image: url("../../images/hero(1024w).svg");
+    background-image: url("../../images/hero(1024w).png");
   }
 }
 

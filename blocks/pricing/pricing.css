@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-image: url("../../images/pricing__background.svg");
+  background-image: url("../../images/pricing__background.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 768px) {
   .pricing {
-    background-image: url("../../images/pricing__background(768w).svg");
+    background-image: url("../../images/pricing__background(768w).png");
     padding: 18% 0 18% 0;
   }
 }
